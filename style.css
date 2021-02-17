@@ -1,6 +1,5 @@
 body {
-  font-family: sans-serif;
-  background-color: #eeeeee;
+	font-family: 'Jua', sans-serif;
 }
 
 .file-upload {
@@ -113,4 +112,10 @@ body {
 .remove-image:active {
   border: 0;
   transition: all .2s ease;
+}
+
+.progress {
+	background-color: red;
+	radius: 15px;
+	padding-left: 0;
 }
