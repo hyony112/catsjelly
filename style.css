@@ -118,4 +118,20 @@ body {
 	background-color: red;
 	radius: 15px;
 	padding-left: 0;
+	padding-right: 0;
+}
+
+#resultBox {
+	text-align: center;
+	font-size: 1.2em;
+	margin-top: 1%;
+	margin-bottom: 2%;
+}
+
+.addthis_inline_share_toolbox {
+	text-align: center;
+}
+
+.row {
+	margin-right: 0;
 }
