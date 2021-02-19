@@ -105,15 +105,12 @@
 						document.getElementById('proE').children[0].innerHTML =  prediction[i].probability.toFixed(2)*100 + '%';
 					}
                 }
+				var maxType = arrayList.indexOf( Math.max(...arrayList) );
 				
-				var maxType = arrayList.reduce( function(previous, current, i) { 
-					// return previous > current ? previous:current;
-					return previous > current ? i:i-1;
-				});
-				// console.log("maxType : " + maxType);
-				// console.log(resultData[maxType-1]);
+				 // console.log("maxType : " + maxType);
+				 // console.log(resultData[maxType]);
 				
-				document.getElementById('resultBox').innerHTML = resultData[maxType-1];
+				document.getElementById('resultBox').innerHTML = resultData[maxType];
 				
             }
 			
