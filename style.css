@@ -2,6 +2,11 @@ body {
 	font-family: 'Jua', sans-serif;
 }
 
+.title {
+	width: 300px;
+	margin: 0 auto;
+}
+
 .file-upload {
   background-color: #ffffff;
   /* width: 600px; */
