@@ -7,6 +7,10 @@ body {
 	margin: 0 auto;
 }
 
+.title h3 {
+	text-align: center;
+}
+
 .file-upload {
   background-color: #ffffff;
   /* width: 600px; */
@@ -149,5 +153,10 @@ body {
 
 .ad-banner-bottom {
 	width: 728px;
+	margin: 0 auto;
+}
+
+footer {
+	width: 200px;
 	margin: 0 auto;
 }
